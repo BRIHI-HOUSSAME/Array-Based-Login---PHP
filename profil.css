@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+body{
+	background-color: #E1E8EE;
+	font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: medium;
+    color: rgb(43, 41, 41);
+
+}
+h1{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+h3{
+    margin-top: 50px;
+    margin-left: 100px;
+    text-decoration: underline;
+
+}
+.CONTAINER{
+display: flex;
+font-size: x-large;
+}
+.CONTAINER i{
+margin-right: 5px;
+
+}
+.DIV-DISPLAY-INFO-NAME{
+border:rgb(43, 41, 41) solid 2px  ;
+width: 25%;
+padding: 15px;
+border-right: 0px;
+}
+.DIV-DISPLAY-INFO-EMAIL{
+    border:rgb(43, 41, 41) solid 2px  ;
+    width: 50%;
+    padding: 15px;
+    border-right: 0px;
+}
+.DIV-DISPLAY-INFO-PASSWORD{
+    border:rgb(43, 41, 41) solid 2px  ;
+    width: 25%;
+    padding: 15px;
+}
+.EDITE-BUTTON{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 80px;
+    height: 30px;
+    color: rgb(43, 41, 41);
+    border:rgb(43, 41, 41) solid 2px  ;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+.EDITE-BUTTON div{
+    margin-left: 10px;
+}
+.LOG-OUT-BUTTON{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    color: rgb(43, 41, 41);
+    border:rgb(43, 41, 41) solid 2px  ;
+    padding: 5px;
+    font-size: small;
+    margin-top: 10px;
+}
+.LOG-OUT-BUTTON i{
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+    color: rgb(43, 41, 41);
+}
+.HEADER{
+    display: flex;
+    justify-content: space-between;
+}

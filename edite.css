@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+.LOG-OUT-BUTTON{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    color: rgb(43, 41, 41);
+    border:rgb(43, 41, 41) solid 2px  ;
+    padding: 5px;
+    font-size: small;
+    margin-top: 10px;
+}
+i{
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+    color: rgb(43, 41, 41);
+}
+.HEADER{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+	background-color: #E1E8EE;
+	font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: medium;
+    color: rgb(43, 41, 41);
+
+}
+h1{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+h3{
+    margin-top: 50px;
+    margin-left: 100px;
+    text-decoration: underline;
+}
+.CONTAINER{
+display: flex;
+font-size: x-large;
+}
+.CONTAINER i{
+margin-right: 5px;
+}
+.DIV-DISPLAY-INFO-NAME{
+border:rgb(43, 41, 41) solid 2px  ;
+width: 25%;
+padding: 15px;
+border-right: 0px;
+}
+.DIV-DISPLAY-INFO-EMAIL{
+    border:rgb(43, 41, 41) solid 2px  ;
+    width: 50%;
+    padding: 15px;
+    border-right: 0px;
+}
+.DIV-DISPLAY-INFO-PASSWORD{
+    border:rgb(43, 41, 41) solid 2px  ;
+    width: 25%;
+    padding: 15px;
+}
+.DONE-BUTTON{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    color: rgb(43, 41, 41);
+    border:rgb(43, 41, 41) solid 2px ;
+    background-color: #E1E8EE;
+    font-size: small;
+}
+.DONE-BUTTON-CONTAINER{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}

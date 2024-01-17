@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+body{
+	background-color: #E1E8EE;
+	font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: medium;
+    color: rgb(43, 41, 41);
+
+}
+
+.ALL{
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+        text-align: center;
+        width: 70%;
+        border-radius: 10px;
+        border: rgb(43, 41, 41) solid 2px;
+    }
+    i{
+    margin-top: 25px;
+    font-size: xx-large;
+    margin-left: 10px;
+    }
